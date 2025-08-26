@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+  <rect width="220" height="220" fill="#111319"/>
+  <rect x="10" y="10" width="200" height="200" fill="none" stroke="#232831" stroke-width="2"/>
+  <g fill="#06c755">
+    <rect x="30" y="30" width="24" height="24"/>
+    <rect x="166" y="30" width="24" height="24"/>
+    <rect x="30" y="166" width="24" height="24"/>
+    <rect x="166" y="166" width="24" height="24"/>
+    <rect x="78" y="78" width="12" height="12"/>
+    <rect x="130" y="78" width="12" height="12"/>
+    <rect x="78" y="130" width="12" height="12"/>
+    <rect x="130" y="130" width="12" height="12"/>
+  </g>
+  <text x="110" y="205" font-family="Arial, sans-serif" font-size="12" fill="#9aa3ad" text-anchor="middle">QR Placeholder</text>
+</svg>
+

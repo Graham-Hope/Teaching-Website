@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Newsletter | English with Graham</title>
+		<link rel="stylesheet" href="/styles.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<nav class="nav container">
+				<a class="brand" href="/index.html">English with Graham</a>
+				<button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+				<ul class="nav-links">
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/consulting.html">Study Abroad</a></li>
+					<li><a href="/faq.html">FAQs</a></li>
+					<li><a href="/blog/">Blog</a></li>
+					<li><a class="btn btn-primary" href="/index.html#book">Book</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="section container">
+				<h1>Join the Newsletter</h1>
+				<p>Monthly English tips and lesson discounts. Unsubscribe anytime.</p>
+				<!-- Replace this form with your provider (Mailchimp, ConvertKit, Beehiiv, etc.) -->
+				<form class="card" action="#" method="post" onsubmit="alert('This is a placeholder. Connect your email provider.'); return false;" style="max-width:520px">
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email" required placeholder="you@example.com" style="width:100%; margin:8px 0; padding:12px; border-radius:8px; background:#0e0f12; border:1px solid #232831; color:var(--text)">
+					<button class="btn btn-primary" type="submit">Subscribe</button>
+				</form>
+				<p class="muted">We respect your privacy. No spam.</p>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container footer-grid">
+				<div>
+					<strong>English with Graham</strong>
+					<p class="muted">Taipei • Online</p>
+				</div>
+				<nav>
+					<ul class="footer-links">
+						<li><a href="/consulting.html">USA Study Abroad</a></li>
+						<li><a href="/faq.html">FAQs</a></li>
+						<li><a href="/blog/">Blog</a></li>
+						<li><a class="active" href="/newsletter.html">Newsletter</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</body>
+</html>
+
